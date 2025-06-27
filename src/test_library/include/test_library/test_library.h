@@ -4,5 +4,6 @@
 #include <ros/ros.h>
 
 void display_pos(float x, float y);
+void display_velocity(float linear, float angular);
 
 #endif
