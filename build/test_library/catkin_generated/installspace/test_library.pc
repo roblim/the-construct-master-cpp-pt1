@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: test_library
+Description: Description of test_library
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltest_library
+Requires: roscpp
