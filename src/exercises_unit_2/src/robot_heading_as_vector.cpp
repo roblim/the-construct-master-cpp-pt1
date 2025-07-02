@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
 
   std::cout << "Displaying saved data:" << std::endl;
   for (int i = 0; i < total_values; i++) {
-    std::cout << "  Heading value " << i << ": " << heading << std::endl;
+    std::cout << "  Heading value " << i << ": " << headings.at(i) << std::endl;
   }
 
   // INSERT YOUR CODE ABOVE THIS LINE
