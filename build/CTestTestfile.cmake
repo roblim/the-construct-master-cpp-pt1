@@ -5,4 +5,5 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("odom_subs")
+subdirs("modern_cpp_course/robot_commander")
+subdirs("exercises_unit_2")

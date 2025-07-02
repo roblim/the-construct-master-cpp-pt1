@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: robot_commander
+Description: Description of robot_commander
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobot_commander
+Requires: roscpp
