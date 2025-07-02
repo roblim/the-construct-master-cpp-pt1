@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/rule:
+	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/rule
+.PHONY : exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/rule
+
+# Convenience name for target.
+robot_heading_as_deque: exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/rule
+
+.PHONY : robot_heading_as_deque
+
+# fast build rule for target.
+robot_heading_as_deque/fast:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build
+.PHONY : robot_heading_as_deque/fast
+
+# Convenience name for target.
 exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/rule:
 	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/rule
 .PHONY : exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/rule
@@ -196,6 +211,33 @@ robot_position_as_array: exercises_unit_2/CMakeFiles/robot_position_as_array.dir
 robot_position_as_array/fast:
 	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/robot_position_as_array.dir/build.make exercises_unit_2/CMakeFiles/robot_position_as_array.dir/build
 .PHONY : robot_position_as_array/fast
+
+src/robot_heading_as_deque.o: src/robot_heading_as_deque.cpp.o
+
+.PHONY : src/robot_heading_as_deque.o
+
+# target to build an object file
+src/robot_heading_as_deque.cpp.o:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/src/robot_heading_as_deque.cpp.o
+.PHONY : src/robot_heading_as_deque.cpp.o
+
+src/robot_heading_as_deque.i: src/robot_heading_as_deque.cpp.i
+
+.PHONY : src/robot_heading_as_deque.i
+
+# target to preprocess a source file
+src/robot_heading_as_deque.cpp.i:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/src/robot_heading_as_deque.cpp.i
+.PHONY : src/robot_heading_as_deque.cpp.i
+
+src/robot_heading_as_deque.s: src/robot_heading_as_deque.cpp.s
+
+.PHONY : src/robot_heading_as_deque.s
+
+# target to generate assembly for a file
+src/robot_heading_as_deque.cpp.s:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/src/robot_heading_as_deque.cpp.s
+.PHONY : src/robot_heading_as_deque.cpp.s
 
 src/robot_heading_as_vector.o: src/robot_heading_as_vector.cpp.o
 
@@ -264,8 +306,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... robot_heading_as_deque"
 	@echo "... robot_heading_as_vector"
 	@echo "... robot_position_as_array"
+	@echo "... src/robot_heading_as_deque.o"
+	@echo "... src/robot_heading_as_deque.i"
+	@echo "... src/robot_heading_as_deque.s"
 	@echo "... src/robot_heading_as_vector.o"
 	@echo "... src/robot_heading_as_vector.i"
 	@echo "... src/robot_heading_as_vector.s"

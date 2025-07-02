@@ -135,6 +135,7 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/exercises_unit_2_node.cpp)
 add_executable(robot_position_as_array src/robot_position_as_array.cpp)
 add_executable(robot_heading_as_vector src/robot_heading_as_vector.cpp)
+add_executable(robot_heading_as_deque src/robot_heading_as_deque.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -152,6 +153,7 @@ add_executable(robot_heading_as_vector src/robot_heading_as_vector.cpp)
 # )
 target_link_libraries(robot_position_as_array ${catkin_LIBRARIES})
 target_link_libraries(robot_heading_as_vector ${catkin_LIBRARIES})
+target_link_libraries(robot_heading_as_deque ${catkin_LIBRARIES})
 
 #############
 ## Install ##

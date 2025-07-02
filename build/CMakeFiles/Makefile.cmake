@@ -223,6 +223,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "modern_cpp_course/robot_commander/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "modern_cpp_course/robot_commander/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
   "modern_cpp_course/robot_commander/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/DependInfo.cmake"
   "exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/DependInfo.cmake"
   "exercises_unit_2/CMakeFiles/robot_position_as_array.dir/DependInfo.cmake"
   )

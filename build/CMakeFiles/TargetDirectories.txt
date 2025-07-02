@@ -66,5 +66,6 @@
 /home/user/catkin_ws/build/exercises_unit_2/CMakeFiles/rebuild_cache.dir
 /home/user/catkin_ws/build/exercises_unit_2/CMakeFiles/edit_cache.dir
 /home/user/catkin_ws/build/exercises_unit_2/CMakeFiles/test.dir
+/home/user/catkin_ws/build/exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir
 /home/user/catkin_ws/build/exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir
 /home/user/catkin_ws/build/exercises_unit_2/CMakeFiles/robot_position_as_array.dir
