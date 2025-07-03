@@ -506,6 +506,19 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named lists
+
+# Build rule for target.
+lists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lists
+.PHONY : lists
+
+# fast build rule for target.
+lists/fast:
+	$(MAKE) -f exercises_unit_2/CMakeFiles/lists.dir/build.make exercises_unit_2/CMakeFiles/lists.dir/build
+.PHONY : lists/fast
+
+#=============================================================================
 # Target rules for targets named robot_heading_as_deque
 
 # Build rule for target.
@@ -583,6 +596,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... lists"
 	@echo "... robot_heading_as_deque"
 	@echo "... robot_heading_as_vector"
 	@echo "... robot_position_as_array"
