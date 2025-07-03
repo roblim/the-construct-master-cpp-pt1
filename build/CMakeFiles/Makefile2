@@ -85,6 +85,7 @@ clean: exercises_unit_2/clean
 exercises_unit_2/all: exercises_unit_2/CMakeFiles/lists.dir/all
 exercises_unit_2/all: exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/all
 exercises_unit_2/all: exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/all
+exercises_unit_2/all: exercises_unit_2/CMakeFiles/path_coordinates.dir/all
 exercises_unit_2/all: exercises_unit_2/CMakeFiles/robot_position_as_array.dir/all
 
 .PHONY : exercises_unit_2/all
@@ -98,6 +99,7 @@ exercises_unit_2/preinstall:
 exercises_unit_2/clean: exercises_unit_2/CMakeFiles/lists.dir/clean
 exercises_unit_2/clean: exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/clean
 exercises_unit_2/clean: exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/clean
+exercises_unit_2/clean: exercises_unit_2/CMakeFiles/path_coordinates.dir/clean
 exercises_unit_2/clean: exercises_unit_2/CMakeFiles/robot_position_as_array.dir/clean
 
 .PHONY : exercises_unit_2/clean
@@ -333,8 +335,8 @@ CMakeFiles/download_extra_data.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
@@ -445,7 +447,7 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/all: modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all
 	$(MAKE) -f modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/build.make modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/depend
 	$(MAKE) -f modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/build.make modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=13,14,15 "Built target robot_commander_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=15,16,17 "Built target robot_commander_node"
 .PHONY : modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -472,7 +474,7 @@ modern_cpp_course/robot_commander/CMakeFiles/robot_commander_node.dir/clean:
 modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all:
 	$(MAKE) -f modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/build.make modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/depend
 	$(MAKE) -f modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/build.make modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=11,12 "Built target robot_commander"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=13,14 "Built target robot_commander"
 .PHONY : modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all
 
 # Build rule for subdir invocation for target.
@@ -931,7 +933,7 @@ exercises_unit_2/CMakeFiles/lists.dir/clean:
 exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/all: modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all
 	$(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/depend
 	$(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=16,17 "Built target robot_heading_as_deque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=18,19 "Built target robot_heading_as_deque"
 .PHONY : exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/all
 
 # Build rule for subdir invocation for target.
@@ -958,7 +960,7 @@ exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/clean:
 exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/all: modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all
 	$(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/depend
 	$(MAKE) -f exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/build.make exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=18,19 "Built target robot_heading_as_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=20,21 "Built target robot_heading_as_vector"
 .PHONY : exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -979,13 +981,40 @@ exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/clean:
 .PHONY : exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/clean
 
 #=============================================================================
+# Target rules for target exercises_unit_2/CMakeFiles/path_coordinates.dir
+
+# All Build rule for target.
+exercises_unit_2/CMakeFiles/path_coordinates.dir/all: modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all
+	$(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/depend
+	$(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=11,12 "Built target path_coordinates"
+.PHONY : exercises_unit_2/CMakeFiles/path_coordinates.dir/all
+
+# Build rule for subdir invocation for target.
+exercises_unit_2/CMakeFiles/path_coordinates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/catkin_ws/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 exercises_unit_2/CMakeFiles/path_coordinates.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/catkin_ws/build/CMakeFiles 0
+.PHONY : exercises_unit_2/CMakeFiles/path_coordinates.dir/rule
+
+# Convenience name for target.
+path_coordinates: exercises_unit_2/CMakeFiles/path_coordinates.dir/rule
+
+.PHONY : path_coordinates
+
+# clean rule for target.
+exercises_unit_2/CMakeFiles/path_coordinates.dir/clean:
+	$(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/clean
+.PHONY : exercises_unit_2/CMakeFiles/path_coordinates.dir/clean
+
+#=============================================================================
 # Target rules for target exercises_unit_2/CMakeFiles/robot_position_as_array.dir
 
 # All Build rule for target.
 exercises_unit_2/CMakeFiles/robot_position_as_array.dir/all: modern_cpp_course/robot_commander/CMakeFiles/robot_commander.dir/all
 	$(MAKE) -f exercises_unit_2/CMakeFiles/robot_position_as_array.dir/build.make exercises_unit_2/CMakeFiles/robot_position_as_array.dir/depend
 	$(MAKE) -f exercises_unit_2/CMakeFiles/robot_position_as_array.dir/build.make exercises_unit_2/CMakeFiles/robot_position_as_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=20,21 "Built target robot_position_as_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=22,23 "Built target robot_position_as_array"
 .PHONY : exercises_unit_2/CMakeFiles/robot_position_as_array.dir/all
 
 # Build rule for subdir invocation for target.

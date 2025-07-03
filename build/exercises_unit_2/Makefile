@@ -213,6 +213,21 @@ robot_heading_as_vector/fast:
 .PHONY : robot_heading_as_vector/fast
 
 # Convenience name for target.
+exercises_unit_2/CMakeFiles/path_coordinates.dir/rule:
+	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exercises_unit_2/CMakeFiles/path_coordinates.dir/rule
+.PHONY : exercises_unit_2/CMakeFiles/path_coordinates.dir/rule
+
+# Convenience name for target.
+path_coordinates: exercises_unit_2/CMakeFiles/path_coordinates.dir/rule
+
+.PHONY : path_coordinates
+
+# fast build rule for target.
+path_coordinates/fast:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/build
+.PHONY : path_coordinates/fast
+
+# Convenience name for target.
 exercises_unit_2/CMakeFiles/robot_position_as_array.dir/rule:
 	cd /home/user/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 exercises_unit_2/CMakeFiles/robot_position_as_array.dir/rule
 .PHONY : exercises_unit_2/CMakeFiles/robot_position_as_array.dir/rule
@@ -253,6 +268,33 @@ src/lists.s: src/lists.cpp.s
 src/lists.cpp.s:
 	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/lists.dir/build.make exercises_unit_2/CMakeFiles/lists.dir/src/lists.cpp.s
 .PHONY : src/lists.cpp.s
+
+src/path_coordinates.o: src/path_coordinates.cpp.o
+
+.PHONY : src/path_coordinates.o
+
+# target to build an object file
+src/path_coordinates.cpp.o:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/src/path_coordinates.cpp.o
+.PHONY : src/path_coordinates.cpp.o
+
+src/path_coordinates.i: src/path_coordinates.cpp.i
+
+.PHONY : src/path_coordinates.i
+
+# target to preprocess a source file
+src/path_coordinates.cpp.i:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/src/path_coordinates.cpp.i
+.PHONY : src/path_coordinates.cpp.i
+
+src/path_coordinates.s: src/path_coordinates.cpp.s
+
+.PHONY : src/path_coordinates.s
+
+# target to generate assembly for a file
+src/path_coordinates.cpp.s:
+	cd /home/user/catkin_ws/build && $(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/src/path_coordinates.cpp.s
+.PHONY : src/path_coordinates.cpp.s
 
 src/robot_heading_as_deque.o: src/robot_heading_as_deque.cpp.o
 
@@ -351,10 +393,14 @@ help:
 	@echo "... lists"
 	@echo "... robot_heading_as_deque"
 	@echo "... robot_heading_as_vector"
+	@echo "... path_coordinates"
 	@echo "... robot_position_as_array"
 	@echo "... src/lists.o"
 	@echo "... src/lists.i"
 	@echo "... src/lists.s"
+	@echo "... src/path_coordinates.o"
+	@echo "... src/path_coordinates.i"
+	@echo "... src/path_coordinates.s"
 	@echo "... src/robot_heading_as_deque.o"
 	@echo "... src/robot_heading_as_deque.i"
 	@echo "... src/robot_heading_as_deque.s"

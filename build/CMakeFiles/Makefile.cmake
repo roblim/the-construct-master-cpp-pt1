@@ -226,5 +226,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "exercises_unit_2/CMakeFiles/lists.dir/DependInfo.cmake"
   "exercises_unit_2/CMakeFiles/robot_heading_as_deque.dir/DependInfo.cmake"
   "exercises_unit_2/CMakeFiles/robot_heading_as_vector.dir/DependInfo.cmake"
+  "exercises_unit_2/CMakeFiles/path_coordinates.dir/DependInfo.cmake"
   "exercises_unit_2/CMakeFiles/robot_position_as_array.dir/DependInfo.cmake"
   )

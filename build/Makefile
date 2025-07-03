@@ -545,6 +545,19 @@ robot_heading_as_vector/fast:
 .PHONY : robot_heading_as_vector/fast
 
 #=============================================================================
+# Target rules for targets named path_coordinates
+
+# Build rule for target.
+path_coordinates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 path_coordinates
+.PHONY : path_coordinates
+
+# fast build rule for target.
+path_coordinates/fast:
+	$(MAKE) -f exercises_unit_2/CMakeFiles/path_coordinates.dir/build.make exercises_unit_2/CMakeFiles/path_coordinates.dir/build
+.PHONY : path_coordinates/fast
+
+#=============================================================================
 # Target rules for targets named robot_position_as_array
 
 # Build rule for target.
@@ -599,6 +612,7 @@ help:
 	@echo "... lists"
 	@echo "... robot_heading_as_deque"
 	@echo "... robot_heading_as_vector"
+	@echo "... path_coordinates"
 	@echo "... robot_position_as_array"
 .PHONY : help
 
